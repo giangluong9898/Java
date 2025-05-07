@@ -24,7 +24,7 @@ Không nguyên thủy: Tất cả các dữ liệu là class,
 
 
 Toán tử: 
-- cộng trừ nhân chia, chia dư, > , <, >=, <=
+- cộng trừ nhân chia, chia dư là % (i%2==0), > , <, >=, <=
 - so sánh: ==, !=
   if (x==y) {
             System.out.println("3");
@@ -51,4 +51,29 @@ Khi đọc code, đọc từ trên xuống, vào cái nào rồi thì dừng, k 
             }
 }
 
+
+- Nhập từ bàn phím 
+import java.util.Scanner; // ngoài class
+Scanner sc = new Scanner(System.in); // khai báo biến Scanner
+        int x = sc.nextInt(); // khai báo 1 số nguyên từ bàn phím
+        float x = sc.nextFloat();
+        String x = sc.nextLine();
+>> Sau khi 1 số, sau nhập chuỗi thì thêm, sc.nextLine(); tránh TH enter ăn vào chuỗi
+{
+            Scanner sc = new Scanner(System.in);
+            int a = sc.nextInt();
+            sc.nextLine();
+            String x = sc.nextLine();
+            System.out.println(x);
+            System.out.println(a);
+        }
+
+- && là kết hợp nhiềuddieu kiện
+- || là hoặc
+- Lấy ký tư trong chuỗi 
+String x = sc.nextLine();
+System.out.println(x.charAt([index]);
+
+- for(int i=1;i<=10;i++)
+Câu lệnh lặp,  [bắt đầu][kết thúc][bước nhảy] (bước nhảy 1: i++ || i=i+1 || i+=1)(bước nhảy 2:i=i+2 || i+=2 )
 
