@@ -1,0 +1,102 @@
+Bài tập 1
+package org.example;
+import java.util.Scanner;
+public class Main2 {
+    public static void main(String[] args) {
+        int a = 200;
+        for (int i = 1; i <= a; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+
+Bài tập 2
+package org.example;
+import java.util.Scanner;
+public class Main2 {
+    public static void main(String[] args) {
+        int a = 5;
+        for (int i = 1; i <= 20; i++)
+        {
+            System.out.println(a*i);
+        }
+    }
+}
+
+Bài tập 3
+package org.example;
+import java.util.Scanner;
+public class Main2 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 100; i++)
+        {
+            for(int a=1; a<=10; a++)
+            {
+                System.out.println(i*a);
+            }
+        }
+    }
+}
+
+
+Bài 4
+
+package org.example;
+import java.util.Scanner;
+public class Main2 {
+    public static void main(String[] args) {
+        int a = 5;
+        for (int i = 1; i <= 5; i++)
+            {
+                if(i%2==0)
+                {
+                    System.out.println(i);
+                }
+
+            }
+    }
+}
+
+Bài tập 5:
+package org.example;
+import java.util.Scanner;
+public class Main2 {
+    public static void main(String[] args) {
+        int a = 5;
+        for (int i = 1; i <= 5; i++)
+            {
+                if(i%2==1)
+                {
+                    System.out.println(i);
+                }
+
+            }
+    }
+}
+
+Bài tập 6:
+package org.example;
+import java.util.Scanner;
+public class Main2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // khai báo biến Scanner
+        String x = sc.nextLine().trim(); // bo trim đầu cuối
+        int a=x.length();
+        int count = 0;
+        for(int i=0; i<a; i++)
+        {
+            if(x.charAt(i)==' '){
+                count++;
+            }
+
+        }
+
+        System.out.println(count);
+        System.out.println(a-count);
+    }
+}
+
+Bài tập 7:
+
+
